@@ -13,3 +13,9 @@ if building the gatsby develop environment was unsuccessful, you can do the ff:
 
 1. delete `node_modules` folder and `package-lock.json`
 2. Do another npm install but this time, `npm install --unsafe-perm`
+
+## Deploying the Site
+
+1. Make sure you are inside the `dsc-website` folder
+2. `npm run deploy`
+3. Currently, this results for the site to build at the `gh-pages` branch.
