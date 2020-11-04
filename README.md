@@ -9,7 +9,7 @@
 
 ### Common Fix(es)
 
-if building the gatsby develop environment was unsuccessful, you can do the ff:
+if building the gatsby develop environment was unsuccessful, you can:
 
 1. delete `node_modules` folder and `package-lock.json`
 2. Do another npm install but this time, `npm install --unsafe-perm`
