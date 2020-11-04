@@ -8,9 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 import Header from "./header"
 import "./layout.css"
+import "../assets/sass/main.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -22,16 +25,16 @@ const Layout = ({ children }) => {
       }
     }
   `)
-
+  AOS.init()
   return (
     <>
-      <Header />
+      {<Header />}
       <div
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
         }}
+        id="wrapper"
       >
         <main>{children}</main>
         <footer

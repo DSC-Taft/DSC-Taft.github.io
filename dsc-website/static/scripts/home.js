@@ -1,16 +1,5 @@
-import React from "react"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Hero from "../components/recruitment/hero"
-import About from "../components/recruitment/about"
-import Perks from "../components/recruitment/perks"
-import Form from "../components/recruitment/form"
-
-import "../assets/sass/main.scss"
-import $ from "jQuery"
-
 var counter = 0
+
 window.onbeforeunload = function () {
   window.scrollTo(0, 0)
 }
@@ -58,7 +47,7 @@ window.addEventListener("scroll", debounce(slideIn))
 function submitForm() {
   counter += 1
 
-  if (counter === 2) {
+  if (counter == 2) {
     $("#fourth").removeClass("background-blue")
     $("#fourth").addClass("background-green")
 
@@ -77,15 +66,3 @@ function submitForm() {
     )
   }
 }
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Developer Student Club Taft - Recruitment" />
-    <Hero />
-    <About />
-    <Perks />
-    <Form />
-  </Layout>
-)
-
-export default IndexPage
