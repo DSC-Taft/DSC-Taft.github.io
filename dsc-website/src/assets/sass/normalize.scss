@@ -1,0 +1,67 @@
+@font-face {
+  font-family: GoogleSans;
+  src: url(assets/fonts/GoogleSans-Regular-v1.27.ttf);
+}
+
+:root {
+  --yellow: rgb(255, 188, 4);
+  --red: rgb(234, 67, 53);
+  --green: rgb(52, 168, 83);
+  --blue: rgb(70, 136, 241);
+  --grey: rgb(241, 243, 244);
+  --black: rgb(45, 46, 49);
+}
+
+body {
+  margin: 0px;
+  font-family: GoogleSans;
+  color: var(--black);
+  line-height: 200%;
+}
+
+div,
+img {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 1vh;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.color-white {
+  color: white;
+}
+
+.background-yellow {
+  background-color: var(--yellow);
+}
+
+.background-blue {
+  background-color: var(--blue);
+}
+
+.background-green {
+  background-color: var(--green);
+}
+
+.background-grey {
+  background-color: var(--grey);
+}
+
+.background-white {
+  background-color: white;
+}
