@@ -220,7 +220,7 @@ iframe
 }
 
 .fb_dialog_content > iframe {
-    min-width: none;
+    min-width: 0;
 }
 
 @media (max-width: 1007px)
