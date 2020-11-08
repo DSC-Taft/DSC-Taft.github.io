@@ -219,10 +219,6 @@ iframe
     display: none;
 }
 
-.default {
-    
-}
-
 @media (max-width: 1007px)
 {
     .box
