@@ -199,7 +199,7 @@ a
     max-width: 100vh;
 }
 
-iframe
+.gforms
 {
     background-color: var(--grey);
     margin-top: 10vh;
