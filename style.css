@@ -219,6 +219,10 @@ iframe
     display: none;
 }
 
+.fb_dialog_content > iframe {
+    min-width: none;
+}
+
 @media (max-width: 1007px)
 {
     .box
