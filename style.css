@@ -223,6 +223,10 @@ iframe
     min-width: 0;
 }
 
+.fb_customer_chat_bounce_in_v2 > iframe {
+    min-width: 0;
+}
+
 @media (max-width: 1007px)
 {
     .box
