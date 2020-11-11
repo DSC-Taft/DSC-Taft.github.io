@@ -264,9 +264,9 @@ a
         font-size: 0.7em;
     }
 
-    iframe
+    .gforms
     {
-        padding: 1vw;
+        padding: 1.5vw;
     }
 
     #third .column
@@ -298,9 +298,9 @@ a
         min-width: 100%;
     }
 
-    iframe
+    .gforms
     {
-        padding: 1vw;
+        padding: 1.5vw;
     }
 
     #third .column
